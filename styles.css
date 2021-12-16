@@ -1,0 +1,108 @@
+.chessboard {
+  width: 960px;
+  height: 960px;
+  border: 6px solid;
+  border-color: #808080;
+  display: block;
+  margin: 15px auto 20px auto;
+}
+
+.box {
+  box-sizing: border-box;
+  float: left;
+  width: 120px;
+  height: 120px;
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+
+.box:hover {
+  outline: 4px dashed #000000;
+  z-index: 2;
+}
+
+.lightsquare {
+  background-color: #FFFFFF;
+}
+
+.darksquare {
+  background-color: #D6DBDF;
+}
+
+.possiblemove {
+  background-color: Green;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  height: 75px;
+  width: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 23px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+.navigationbar {
+  height: 40px;
+  width: 960px;
+  font-size: 30px;
+  margin: 0 auto;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+
+#turn {
+  display: inline-block;
+  float: left;
+  width: 400px;
+  text-align: left;
+  border: 3px dashed #D6DBDF;
+  padding-left: 10px;
+}
+
+#restart {
+  margin-top: 15px;
+  float: right;
+  margin-left: 40px;
+}
+
+#toregular {
+  margin-top: 15px;
+  float: right;
+}
+#tored {
+  margin-top: 15px;
+  margin-left: 5px;
+  float: right;
+}
+#toyellow {
+  margin-top: 15px;
+  margin-left: 5px;
+  float: right;
+}
+#togreen {
+  margin-top: 15px;
+  margin-left: 5px;
+  float: right;
+}
+#toblue {
+  margin-top: 15px;
+  margin-left: 5px;
+  float: right;
+}
+#topurple {
+  margin-top: 15px;
+  margin-left: 5px;
+  float: right;
+}
